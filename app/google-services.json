@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402152908271",
+    "project_id": "hijab-and-accessories",
+    "storage_bucket": "hijab-and-accessories.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402152908271:android:c2a2b6d295f32669eb021a",
+        "android_client_info": {
+          "package_name": "com.example.hijabaccessories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402152908271-6qcg0i5dmrd6ienur54ldjt1n57bq0rd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0vNczuUDQtMXoMQihOmacQJzresZpmLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402152908271-6qcg0i5dmrd6ienur54ldjt1n57bq0rd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

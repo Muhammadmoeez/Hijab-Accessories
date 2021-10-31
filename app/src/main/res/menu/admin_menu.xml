@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:title="Public Dashboard"
+        android:id="@+id/publicView"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:title="Add Category"
+        android:id="@+id/addNewCategory"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:title="Add Product"
+        android:id="@+id/addProduct"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:title="Ordres"
+        android:id="@+id/adminShowMyAllOrders"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:title="LogOut"
+        android:id="@+id/logout"
+        app:showAsAction="never">
+
+    </item>
+
+</menu>

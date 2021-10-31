@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/editTextBG"
+    tools:context=".AddCategory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/addCategory"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="@string/itemCategory"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:maxLength="15"
+                android:textColor="@color/textColorOnWhiteBackGround"
+                android:textColorHint="@color/textColorOnWhiteBackGround"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginTop="15dp"
+                />
+
+            <Button
+                android:id="@+id/addCategoryBtn"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="@string/addCategoryBtn"
+                android:background="@drawable/btn_add_product"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+
+            <Spinner
+                android:id="@+id/productCategoryShowForAddSubCategory"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_bg"
+                />
+            <EditText
+                android:id="@+id/addSubCategory"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="@string/itemSubCategory"
+                android:paddingLeft="20dp"
+                android:inputType="text"
+                android:maxLength="15"
+                android:textColor="@color/textColorOnWhiteBackGround"
+                android:textColorHint="@color/textColorOnWhiteBackGround"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginTop="15dp"
+                />
+
+            <Button
+                android:id="@+id/addSubCategoryBtn"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="@string/addSubCategoryBtn"
+                android:background="@drawable/btn_add_product"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

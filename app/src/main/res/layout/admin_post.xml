@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/editTextBG"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/adminImageShowPost"
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:src="@drawable/loading_bg"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingLeft="15dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/adminCategoryShowPost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Category"
+                    android:textColor="@color/textColorOnWhiteBackGround"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/adminNameShowPost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Name"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/textColorOnWhiteBackGround"
+                    android:textStyle="bold"/>
+
+
+
+                <TextView
+                    android:id="@+id/adminSubCategoryShowPost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Sub Category"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/textColorOnWhiteBackGround"
+                    />
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5dp">
+                   <TextView
+                       android:id="@+id/adminPriceShowPost"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textSize="18sp"
+                       android:text="10000"
+                       android:textColor="@color/textColorOnWhiteBackGround"
+                       />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textSize="18sp"
+                       android:text="Rs"
+                       android:paddingLeft="5dp"
+                       android:textColor="@color/textColorOnWhiteBackGround"
+                       />
+               </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/adminViewShowPost"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/ic_red_eye"/>
+
+                <ImageView
+                    android:id="@+id/adminEditShowPost"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/ic_edit"/>
+                <ImageView
+                    android:id="@+id/adminDeleteShowPost"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/ic_delete"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

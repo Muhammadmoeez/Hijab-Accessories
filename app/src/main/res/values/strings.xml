@@ -1,0 +1,41 @@
+<resources>
+    <string name="profile">Profile</string>
+    <string name="adminRegistration">Registration</string>
+    <string name="adminName">Full Name</string>
+    <string name="adminEmail">Email</string>
+    <string name="adminPassword">Password</string>
+    <string name="adminPhoneNumber">+923326882570</string>
+
+    <string name="adminSignUp">Sign UP</string>
+    <string name="adminSignIn">Sign In</string>
+
+    <string name="app_name">Hijab &amp; Accessories</string>
+    <string name="addProduct">Add Product</string>
+    <string name="itemCode">SKU</string>
+    <string name="itemName">Item Name</string>
+    <string name="itemDescription">Description</string>
+    <string name="itemPrice">Price</string>
+
+    <string name="itemCategory">Category</string>
+    <string name="itemSubCategory">Sub Category</string>
+    <string name="addCategoryBtn">Add Category</string>
+    <string name="addSubCategoryBtn">Add Sub-Category</string>
+
+
+    <string name="orderNumberOfItems">Number Of Items</string>
+    <string name="orderMemberName">Your Name</string>
+    <string name="orderMemberNumber">Your Number</string>
+    <string name="orderBtn">Order</string>
+
+    <string name="itemStockAvailability">Stock Availability</string>
+
+    <string name="updateStock">In Stock / Out Of Stock</string>
+    <string name="inStock">In Stock</string>
+    <string name="outOfStock">Out Of Stock</string>
+
+    <string-array name="stockAvailability">
+        <item>Stock Availability</item>
+        <item>In Stock</item>
+        <item>Out Of Stock</item>
+    </string-array>
+</resources>

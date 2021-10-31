@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PublicDashboard">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/publicDashboardToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/backgroundColor"
+        app:title=" "
+        app:titleTextColor="@color/white"
+        app:subtitleTextColor="@color/white"
+        app:titleTextAppearance="@style/ToolbarTextAppearance.Title"
+        app:subtitleTextAppearance="@style/ToolbarTextAppearance.Subtitle"
+        app:popupTheme="@style/MyToolbarCustomPopupStyle"
+        style="@style/MyToolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/arrowBackPublicDashboard"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="7dp"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textColor="@color/textColorOnBlueBackGround"
+            android:textSize="15sp"
+            android:padding="10dp"
+
+            android:textStyle="bold"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/publicDashboardToolBar"
+        android:background="@color/backgroundColor"
+        app:tabGravity="fill"
+        app:tabMode="fixed" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tabLayout"/>
+
+
+
+</RelativeLayout>
